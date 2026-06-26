@@ -8,6 +8,26 @@ This project is designed to help developers understand Context API fundamentals,
 
 ---
 
+## 📖 About The Project
+
+Managing state between deeply nested components can quickly become challenging.
+
+Passing data from parent to child through multiple layers of components is known as Prop Drilling.
+
+React introduced the Context API and the useContext Hook to solve this problem.
+
+This project demonstrates:
+
+Creating Context
+Providing Global State
+Consuming Context Values
+Avoiding Prop Drilling
+Managing Shared Application Data
+Building Scalable React Applications
+
+Whether you're learning React Hooks or preparing for frontend interviews, this project provides practical examples to master global state management.
+
+---
 
 
 
