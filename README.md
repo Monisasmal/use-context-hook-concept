@@ -1,3 +1,17 @@
+## ⚛️ React useContext Hook
+
+A comprehensive React project demonstrating the useContext Hook, explaining how to share data globally across components and eliminate prop drilling in modern React applications.
+
+This project is designed to help developers understand Context API fundamentals, provider patterns, and state sharing techniques through practical examples.
+
+(🌐 Live Demo)[👉https://use-context-hook-concept.vercel.app/]
+
+---
+
+
+
+
+
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
