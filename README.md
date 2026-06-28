@@ -67,6 +67,45 @@ Hook Demonstrations
 
 ----
 
+## 🔥 How useContext Works
+
+React Context follows three simple steps:
+
+### Step 1 — Create Context
+
+import { createContext } from 'react';
+
+const UserContext = createContext();
+
+## Step 2 — Provide Context
+
+<UserContext.Provider value={user}>
+
+<App/>
+
+</UserContext.Provider>
+
+### Step 3 — Consume Context
+
+import { useContext } from 'react';
+
+const user = useContext(UserContext);
+
+---
+
+## 🎯 Why useContext?
+
+The useContext Hook helps developers:
+
+✅ Avoid Prop Drilling
+✅ Share Data Globally
+✅ Improve Code Readability
+✅ Simplify Component Communication
+✅ Build Maintainable Applications
+✅ Organize State Efficiently
+
+----
+
 
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
