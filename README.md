@@ -29,7 +29,43 @@ Whether you're learning React Hooks or preparing for frontend interviews, this p
 
 ---
 
+## 🚀 What is useContext?
 
+The useContext Hook allows components to access data from a React Context without manually passing props through every component level.
+
+Syntax:
+
+const value = useContext(MyContext);
+
+It works together with:
+
+- createContext()
+- Context.Provider
+- useContext()
+
+----
+
+## ✨ Features
+
+Hook Demonstrations
+
+✔ Creating Context
+
+✔ Providing Values
+
+✔ Consuming Context
+
+✔ Global Theme Switching
+
+✔ User Authentication State
+
+✔ Shared Data Management
+
+✔ Nested Component Access
+
+✔ Eliminating Prop Drilling
+
+----
 
 
 
