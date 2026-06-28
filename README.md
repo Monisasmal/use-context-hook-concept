@@ -77,7 +77,7 @@ import { createContext } from 'react';
 
 const UserContext = createContext();
 
-## Step 2 — Provide Context
+### Step 2 — Provide Context
 
 <UserContext.Provider value={user}>
 
@@ -98,14 +98,52 @@ const user = useContext(UserContext);
 The useContext Hook helps developers:
 
 ✅ Avoid Prop Drilling
+
 ✅ Share Data Globally
+
 ✅ Improve Code Readability
+
 ✅ Simplify Component Communication
+
 ✅ Build Maintainable Applications
+
 ✅ Organize State Efficiently
 
 ----
 
+## 🚨 When NOT to Use useContext
+
+Avoid using Context for:
+
+❌ Frequently Updating Large Data
+
+❌ Massive Applications
+
+❌ Complex Business Logic
+
+❌ Heavy State Management
+
+In those scenarios, consider:
+
+Redux Toolkit
+Zustand
+Jotai
+Recoil
+
+---
+
+## 🎯 Real World Use Cases
+
+- Theme Management
+- Authentication
+- Shopping Cart
+- Language Switching
+- User Preferences
+- Notifications
+- Application Settings
+- Dashboard Data
+
+----
 
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
